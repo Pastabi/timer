@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="image/png" sizes="32x32" rel="icon" href="/timer.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Timer</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">Timer</div>
+      <div class="timemachine">
+        <div class="hours">00</div>
+        <div class="colons">:</div>
+        <div class="minutes">00</div>
+        <div class="colons">:</div>
+        <div class="seconds">00</div>
+      </div>
+      <div class="input">
+        <input class="hours-input" type="number" min="0" max="99" placeholder="00" />
+        <div class="colons">:</div>
+        <input class="minutes-input" type="number" min="0" max="59" placeholder="00" />
+        <div class="colons">:</div>
+        <input class="seconds-input" type="number" min="0" max="59" placeholder="00" />
+      </div>
+      <div class="controls">
+        <button class="play start">▶</button>
+        <button class="play stop">❚❚</button>
+        <button class="reset">Reset</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
